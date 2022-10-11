@@ -1,7 +1,5 @@
 import urllib.request
 
-
-
 def urlopen(url):
     pagina = urllib.request.urlopen(url)    
     texto  = pagina.read().decode("utf8")
